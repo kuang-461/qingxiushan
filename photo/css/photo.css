@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a { 
+    text-decoration: none;
+}
+
+body {
+    /* background-color: rgb(243, 245, 247); */
+    background-color: #fff;
+}
+
+.box {
+    position: relative;
+    height: 60px;
+    background-color: rgb(250, 249, 229);
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.navbar ul img {
+    float: left;
+    height: 60px;
+}
+
+.navbar ul li {
+    float: left;
+    width: 80px;
+    height: 60px;
+}
+
+.navbar ul li:last-child {
+    padding-left: 0;
+}
+
+
+.navbar ul li a {
+    display: block;
+    font-family: "微软雅黑", "黑体";
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    text-align: center;
+    line-height: 60px;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a:active {
+    font-weight: 550;
+    background-color: rgb(81, 136, 9);
+    color: #fff;
+}
+
+
+.bgi {
+    float: left;
+    width: 1000px;
+    height: 167px;
+    background-image: url(../images/00.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+.footer {
+    float: left;
+    padding-top: 10px;
+    width: 1000px;
+    height: 340px;
+    /* background-color: #fff; */
+    background-color: rgb(237, 249, 255);
+}
+
+.footer .left {
+    float: left;
+    width: 400px;
+    height: 240px;
+}
+
+.footer .left img {
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.footer .left p {
+    float: left;
+    padding-left: 60px;
+    font-size: 16px;
+    line-height: 2em;
+}
+
+.footer .right {
+    float: left;
+    width: 600px;
+    height: 240px;
+}
+
+.footer .right dl {
+    float: left;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 16px;
+    color: #333;
+}
+
+.footer .right dt {
+    margin-bottom: 20px;
+    margin-right: 60px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footer .right dd {
+    margin-bottom: 10px;
+    line-height: 1.5em;
+}
+
+.footer .right dd a{
+    font-size: 16px;
+    color: #333;
+}
+
+.footer .right a:hover {
+    color: rgb(47, 49, 171);
+    font-weight: 550;
+}
+
+.footer .bottom {
+    float: left;
+    width: 1000px;
+    height: 100px;
+}
+
+.footer .bottom .author {
+    padding-top: 20px;
+}
+
+.footer .bottom .author p {
+    font-size: 14px;
+    color: #888;
+    text-align: center;
+    line-height: 2em;
+}
+.border{
+	width:  1000px;
+	height: 50px;
+	float: left;
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+}
+ .im1{
+	width: 300px;
+	height: 300px;
+	background-image: url(../images/千年苏铁园.jpg);
+	background-repeat: no-repeat;
+    background-size: contain;
+}
+ .im2{
+	width: 300px;
+	height: 300px;
+	background-image: url(../images/广西珍贵树种展示园展示.jpg);
+	background-repeat: no-repeat;
+    background-size: contain;
+}
+ .im3{
+	width: 300px;
+	height: 300px;
+	background-image: url(../images/兰园.jpg);
+	background-repeat: no-repeat;
+    background-size: contain;
+}
+ .im4{
+	width: 300px;
+	height: 300px;
+	background-image: url(../images/桃花岛.jpg);
+	background-repeat: no-repeat;
+    background-size: contain;
+}
+ .im5{
+	width: 300px;
+	height: 300px;
+	background-image: url(../images/雨林大观.jpg);
+	background-repeat: no-repeat;
+    background-size: contain;
+}
+ .im6{
+	width: 300px;
+	height: 300px;
+	background-image: url(../images/董泉.jpg);
+	background-repeat: no-repeat;
+    background-size: contain;
+}
+ .im7{
+	width: 300px;
+	height: 300px;
+	background-image: url(../images/大花蕙兰.jpg);
+	background-repeat: no-repeat;
+    background-size: contain;
+}
+ .im8{
+	width: 300px;
+	height: 300px;
+	background-image: url(../images/十二生肖文化园.jpg);
+	background-repeat: no-repeat;
+    background-size: contain;
+}
+ .im9{
+	width: 300px;
+	height: 300px;
+	background-image: url(../images/荷花池曲桥.jpg);
+	background-repeat: no-repeat;
+    background-size: contain;
+}
+.decration{
+	display: block;
+	text-align: center;
+	font-size: 30px;
+	font-family: "宋体";
+	font-weight: 300;
+	font-style: normal;
+	line-height: 30px;
+	padding-top: 200px;
+	color: black;
+}
+a:hover{
+	color: orange;
+	/* text-decoration: underline; */
+}
+
+
+
